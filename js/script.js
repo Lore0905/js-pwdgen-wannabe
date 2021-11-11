@@ -9,8 +9,8 @@ const userColor = prompt ("qual'è il tuo colore preferito");
 console.log(userColor);
 
 // creo il messaggio
-const userMessage = 'Questa è la tua pw:' + 'userName' + ' userSurname' ' userColor';
+const userMessage = 'Questa è la tua pw:' + userName +  userSurname + userColor;
 console.log(userMessage);
 
 //scrivo sulla pagina nomecognomecolorepreferito21
-document.getElementById('user-message').innerHTML = userMessage;
+document.getElementById('user-message').innerHTML = userMessage + "21";
